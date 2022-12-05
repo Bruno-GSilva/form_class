@@ -5,16 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>form</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <form action="">
-        <label for="name">Nome</label>
-        <input type="text" id="name">
-        <label for="description">Descrição</label>
-        <input type="description" id="description">
-        <label for="amount">Quantidade</label>
-        <input type="amount" id="amount">
+    <form>
+      <label for="name">Produto</label>
+      <input type="text" id="name" placeholder="Nome do produto" />
+      <label for="description">Descrição</label>
+      <input
+        type="description"
+        id="description"
+        placeholder="Descrição do produto"
+      />
+      <label for="amount">Quantidade</label>
+      <input type="amount" id="amount" placeholder="Quantidade ex: 1,2,4" />
+      <label for="value">Valor</label>
+      <input type="value" placeholder="Valor ex: $12.50" />
+      <input type="submit" value="Enviar" id="submit">
     </form>
   </body>
 </html>
